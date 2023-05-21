@@ -1,0 +1,56 @@
+.pdf-list {
+	width: 80%;
+}
+.card {
+	width: 18rem;
+}
+.category .list-group {
+	width: 200px;
+	
+}
+.nd {
+	text-decoration: none;
+}
+.btn{
+	background-color: #F68901;
+	border: 1px solid #F68901;
+}
+.btn:hover{
+	background-color: #a65b00;
+	border: 1px solid #a65b00;
+}
+.list-group-item-action.active{
+	background-color: #F68901;
+	border: 1px solid #F68901;
+}
+.btn.active{
+	background-color: #F68901;
+	border: 1px solid #a65b00;
+}
+.btn-success{
+	background-color: none;
+	border-color: none;
+}
+body{
+	background: url("img/backgroundbookstore.jpg") no-repeat center center fixed;
+			-webkit-background-size: cover;
+        	-moz-background-size: cover;
+        	-o-background-size: cover;
+       		background-size: cover;
+}
+.top{
+    width: 60px;
+}
+.bot{
+    width: 60px;
+}
+.nav-link.active{
+		color: #F68901 !important;
+	
+}
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,32 @@
+<?php
+
+
+$sName = "localhost";
+
+$uName = "root";
+
+$pass = "";
+
+$db_name = "pfaa_db";
+
+$link = mysqli_connect($sName, $uName, $pass, $db_name);
+if ($link === false) {
+  die("ERROR: Could not connect. " . mysqli_connect_error());
+}
+
+
+
+
+
+
+
+try {
+  $conn = new PDO(
+    "mysql:host=$sName;dbname=$db_name",
+    $uName,
+    $pass
+  );
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+  echo "Connection failed : " . $e->getMessage();
+}
